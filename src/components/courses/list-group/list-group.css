@@ -1,0 +1,10 @@
+.list-container{
+    margin-bottom: 30px;
+}
+.list-container h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:var(--ebony-clay);
+    margin-bottom: 15px;
+    
+}

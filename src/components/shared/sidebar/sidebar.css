@@ -1,0 +1,95 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.sidebar-content {
+    display: none;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    transition: transform 300ms linear;
+}
+
+.sidebar-content-active {
+    display: block;
+    height: 100%;
+    width: 70%;
+    padding: 40px 20px;
+    min-width: 200px;
+    max-width: 26rem;
+    transform: none;
+    z-index: 10;
+}
+
+.sidebar-active {
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+    z-index: 25;
+}
+
+.sidebar-active .sidebar-overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* opacity: 0; */
+    transition: opacity 300ms linear;
+    opacity: 0.3;
+}
+
+
+
+.sidebar-elements ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+.sidebar-elements ul li a {
+    font-weight: 500;
+    font-family: "Poppins";
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar-elements ul li{
+    width:90%
+}
+.sidebar-elements ul li:not(:first-child){
+    padding-inline: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+}
+.sidebar-elements ul li:not(:first-child):hover{
+    background-color: black;
+    color:white
+}
+.sidebar-elements ul li:not(:first-child):hover a{
+    color: white;
+}
+.sidebar-elements ul li:has(a.active){
+    background-color: black;
+    color:white
+}
+.sidebar-elements ul li a.active{
+    color: white;
+}
+

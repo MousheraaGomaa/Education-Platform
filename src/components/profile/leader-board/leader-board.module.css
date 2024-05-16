@@ -1,0 +1,56 @@
+.learder-board-container{
+    font-family: 'Poppins';
+}
+
+.learder-board-container > h5{
+    font-weight: 700;
+}
+.learder-board-container hr{
+    color: #F7F7F7;
+}
+.leader .rank .rank-value{
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-weight: 600;    
+    display: inline-block;
+    background-color: #F5F7FB;
+}
+.leader .rank .icon{
+    font-size: 20px;
+    color: #228C7C;
+    margin-left: 5px; 
+}
+.leader .inst-data{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.leader .inst-data h6{
+    font-weight: 700;
+    object-fit: cover;
+}
+.leader .inst-data > span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50vh;
+}
+.leader .inst-data > span img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.leader .course,
+.leader .hour{
+    color:#6C6C6C;
+    font-weight: 700;
+}
+.leader .point{
+    color: #1A8878 ;
+    font-weight: 700;
+}
+.learder-board-container .header h6{
+    font-weight: 700;
+    color: #84868A;
+}

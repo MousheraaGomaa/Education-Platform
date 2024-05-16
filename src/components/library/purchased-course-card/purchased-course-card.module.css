@@ -1,0 +1,48 @@
+
+.card{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+.course-img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.title{
+    color: var(--ebony-clay);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.progress{
+    height: 6px;
+    border-radius: 2px;
+    background-color: var(--geyser);
+    margin-top: 15px;
+}
+.inst-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline !important;
+}
+.inst-name{
+    /* color: black; */
+    font-weight: 600;
+    margin-left:10px
+}
+.progress-label{
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: end;
+    color: var(--santa-grey);
+}

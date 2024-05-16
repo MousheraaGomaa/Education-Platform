@@ -1,0 +1,26 @@
+
+.floatdiv {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #CCE5E1;    
+    display: flex;
+    gap:20px;
+    width: fit-content;
+}
+
+.floatdiv .text h5,
+.floatdiv .text h6{
+    margin: 0px;
+    color: #595959;
+}
+.floatdiv .text h5
+{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom:5px
+}
+
+.floatdiv .text h6
+{
+    font-size: 14px;
+}

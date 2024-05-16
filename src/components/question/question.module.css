@@ -1,0 +1,50 @@
+.question-container{
+    font-family: 'Poppins';
+}
+.question-container h6{
+    font-weight: 700;
+    color: var(--boulder);
+    font-size: 14px;
+}
+.question-container h4{
+    font-weight: 700;
+    margin-block: 10px 20px;
+}
+.answers{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.answers li{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    color: var(--boulder);
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+.answers li.active{
+    color: white;
+    border-color: white;
+    background-color: var(--pine-green);
+}
+
+@media screen and (max-width:991.9999px) {
+    .question-container h4{
+        font-size:20px;
+    }
+    .answers li{
+        font-size:14px ;
+    }
+}
+@media screen and (max-width:576px) {
+    .question-container h4{
+        font-size:18px;
+    }
+    .answers li,
+    .question-container h6
+    {
+        font-size:12px ;
+    }
+}

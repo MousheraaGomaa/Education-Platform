@@ -1,0 +1,17 @@
+.search-container{
+    font-family: Poppins;
+}
+.search-container input{
+    outline: none;
+    border: 2px solid #e1e3e1;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-block: 3px;
+    width: 100%;
+    font-weight: 600;
+}
+.search-container input::placeholder{
+    color:#93959A;
+    font-weight: 600;
+}
+

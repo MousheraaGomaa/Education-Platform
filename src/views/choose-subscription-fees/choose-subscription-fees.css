@@ -1,0 +1,25 @@
+.subscription-header{
+    text-align: center;
+    font-family: Poppins,sans-serif;
+}
+.subscription-header h2{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.subscription-header>span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.subscription-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.action{
+    text-align: end;
+    padding-block: 20px;
+}
+.subscription-container .action button{
+    font-size: 20px;
+    font-weight: 600;
+}

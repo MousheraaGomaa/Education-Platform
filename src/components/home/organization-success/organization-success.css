@@ -1,0 +1,46 @@
+.our-success {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.our-success .success-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.our-success .success-info h2 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-bottom: 0;
+    display: inline;
+    background-color: #01BFA3;
+    background: linear-gradient(to right, #01BFA3, #06433A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.our-success .success-info p {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.our-success>p {
+    color: black !important;
+    font-size: 14px !important;
+    line-height: 1.5;
+    margin-inline: auto;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 768px) {
+    .our-success .success-info h2 {
+        font-size: 40px;
+    }
+    .our-success .success-info p {
+        font-size: 16px;
+    }
+}

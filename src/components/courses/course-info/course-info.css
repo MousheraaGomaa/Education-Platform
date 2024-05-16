@@ -1,0 +1,33 @@
+
+.course-info h5{
+    font-weight: 600;
+    color:var(--ebony-clay)
+}
+.course-info p{
+    font-size: 14px;
+    color: var(--storm-gray);
+}
+
+.course-info section{
+    margin-bottom:30px;
+}
+.course-info .instructor-section{
+    padding: 20px 5px 20px 20px;
+    border-radius: 15px;
+    background-color: var(--bone);
+}
+.course-info  .inst-info {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.course-info  .inst-info  img{
+    height: 50px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.course-info  .inst-info  h6{
+    font-weight: 600;
+}

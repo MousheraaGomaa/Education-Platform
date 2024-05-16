@@ -1,0 +1,67 @@
+.siderbar-content-container{
+    background-color: var(--athens-gray);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 30px 20px 150px 10px ;
+}
+.sidebar-elements ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px
+}
+
+.sidebar-elements ul li a {
+    font-weight: 500;
+    font-family: "Poppins";
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar-elements ul li{
+    width:100%;
+    cursor: pointer;    
+    border-radius: 5px;
+}
+.sidebar-elements ul li:not(:first-child) .element-content{
+    padding-inline: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 180px;
+}
+.sidebar-elements ul li:first-child{
+    text-align: center;
+}
+.sidebar-elements ul li:first-child img{
+    width:100px
+}
+.sidebar-elements ul li:not(:first-child):hover{
+    background-color: black;
+    color:white
+}
+.sidebar-elements ul li:not(:first-child):hover a{
+    color: white;
+}
+.sidebar-elements ul li:has(a.active){
+    background-color: black;
+    color:white
+}
+.sidebar-elements ul li a.active{
+    color: white;
+}
+.unseen-messages{
+    width: 30px;
+    border-radius: 50%;
+    background-color: var(--azalea);
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 500;
+    margin-left: auto;
+}

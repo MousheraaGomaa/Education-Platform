@@ -1,0 +1,27 @@
+.login-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 10px;
+    font-family: Poppins,sans-serif;
+}
+.remember-forgot-container{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot-container input{
+    margin-right: 5px;
+}
+.login-form button{
+    padding: 7px 50px;
+}
+/* form .input-field{
+    margin-top: 40px;
+} */
+
+

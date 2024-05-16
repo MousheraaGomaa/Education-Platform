@@ -1,0 +1,225 @@
+ :root{
+  --pine-green:#037C6A;
+  --pastel-pink:#FAD0CE;
+  --titan-white:#E2F0FF;
+  --aqua-haze:#DDEDEB;   /*bg*/
+  --zircon:#F9FCFF;
+  --santa-grey:#9F9FB0;
+  --cadet-blue:#c2c5d7;
+  --neptune:#7EBCB4;
+  --dusty-teal:#309384;
+  --breaker-bay:#4A9B8F;   /*prog*/
+  --bone:#E5DACA;
+  --bright-grey:#414259;
+  --ebony-clay:#252641;  /*h*/
+  --storm-gray:#8A8AA0;  /*p*/
+  --geyser:#DEDEE4;
+  --coffee:#AA8451;
+  --dark-orange:#F79203;
+
+  --tropical-blue:#CED5FA;
+  --cornflower-blue:#5B72EE;
+
+  --jagged-ice:#C8EBEB;
+  --fountain-blue:#49BBBD;
+  --solitude:#E2F0FF;
+  --Anakiwa:#9DCCFF;
+
+  --mint-tulip:#B3EFEA;
+  --robin-blue:#00CBB8;
+  --ligh-apricot:#FCDDB4;
+  --tahiti-gold:#F48C06;
+  --azalea:#FAD0CE;
+  --burnt-sienna:#EE645B;
+  --ebony-clay:#252641;
+  --french-gray:#BEBEC6;
+
+  --alto:#D9D9D9;
+  --boulder:#777777;
+  
+  --athens-gray:#F5F7F9;
+  --azalea:#FAD0CE;
+
+ }
+
+ 
+ body {
+   margin: 0;
+   padding: 0px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+     sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+
+ /*
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+ h6,
+ h4,
+ p {
+   margin: 0px;
+ }
+
+ .custom-input-container {
+   height: 45px;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   border-radius: 50vh;
+   border: 1px solid #B6B6B6;
+   padding-inline: 20px;
+   overflow: hidden;
+ }
+
+ .custom-input-container input {
+   border: none;
+   flex-grow: 1;
+   height: 100%;
+   outline: none;
+ }
+
+ .custom-input-container:focus-within {
+   border: 2px rgba(0, 140, 255, 0.459) solid
+ }
+
+ ::placeholder {
+   color: #C0C0C0;
+   font-size: 13px;
+   font-weight: 500;
+ }
+
+
+ ::-ms-input-placeholder {
+   /* Edge 12 -18 */
+   color: #C0C0C0;
+   font-size: 13px;
+ }
+
+ .mybtn {
+   font-size: 18px;
+   padding: 10px 40px;
+   border-radius: 50vh;
+ }
+
+ .dark-btn {
+   color: white;
+   border: 2px white solid;
+   background-color: #037C6A;
+ }
+
+ .dark-btn:hover {
+   color: #037C6A;
+   border-color: #037C6A;
+   background-color: white;
+ }
+
+ .light-btn {
+   color: #037C6A;
+   border: 2px #037C6A solid;
+   background-color: white;
+ }
+
+ .light-btn:hover {
+   color: white;
+   background-color: #037C6A;
+   border-color: white;
+ }
+
+ .label {
+   font-weight: 700;
+   margin-bottom: 10px;
+ }
+
+ .icon-show,
+ .icon-hide {
+   font-size: 25px;
+   cursor: pointer;
+ }
+
+ .link {
+   text-decoration: none;
+   color: black
+ }
+
+ .active-color,
+ .success-color {
+   color: #037C6A !important;
+ }
+
+ .inactive-color {
+   color: #999999
+ }
+
+ .myul {
+   list-style-type: none;
+   padding: 0;
+ }
+
+ .have-acc {
+   font-weight: 500;
+   text-align: center;
+   margin-top: 30px;
+ }
+
+ form .input-field {
+   margin-top: 30px;
+ }
+
+ .custom-icon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+ }
+
+ .text-gray {
+   color: #7C7C93
+ }
+
+ .overlay-bg {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: #00000042;
+ }
+
+ .bronze-color {
+   color: #A9834F;
+ }
+
+ .bg-bronze {
+   background-color: #A9834F !important;
+ }
+ .header-space{
+  padding-top: 100px;
+ }
+ .progress-bar{
+  background-color: var(--breaker-bay) !important;
+}
+
+.slick-slide {
+  padding-inline:5px; 
+}
+.slick-list {
+  margin: 0 -10px; 
+}
+
+.custom-container{
+  width: 92%;
+  padding-inline: 10px;
+  margin-inline: auto;
+}
+@media screen and (max-width:1200px) {
+  .custom-container{
+    width: 94%;
+  }
+}
+@media screen and (max-width:576px) {
+  .custom-container{
+    width: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.purchased-courses-container {
+    background-color: var(--aqua-haze);
+    padding-block: 40px;
+    font-family: Poppins;
+}
+
+.purchased-courses-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+h3{
+    color: var(--ebony-clay);
+    font-weight: 600;
+}
+h6{
+    color: var(--pine-green);
+    font-weight: 700;
+}
+
+.slider-controls{
+    margin-top: 20px;
+}

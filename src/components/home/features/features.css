@@ -1,0 +1,19 @@
+.feature {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    row-gap: 20px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.feature-img img{
+    width: 200px;
+    height: 200px;
+}
+
+.feature-img-left img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain ;
+}

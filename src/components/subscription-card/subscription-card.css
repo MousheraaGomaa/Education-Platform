@@ -1,0 +1,78 @@
+.subscription-card {
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.subscription-card:hover{
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 21%)
+}
+.plan-icon {
+    font-size: 25px;
+}
+.plan{
+    height: 30px;
+}
+.plan span{
+    border-radius: 50vh;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+}
+.plan h5,.plan span{
+  font-weight: 700;
+}
+.price {
+    font-family: Poppins,sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-block: 20px;
+}
+.price span {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.feature-text{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subscription-card button {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    padding-block: 15px;
+    border-radius: 20px;
+    border: 1px solid #979797;
+}
+
+.subscription-card .active-btn {
+    color: white;
+    border-color:white;
+    background-color: #037C6A;
+}
+
+.svg--gradient-fill {
+    fill: url(#svg_painter);
+}
+
+.checkmark-circle-icon {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    background-color: #E2E2E2;
+}
+
+.individual .checkmark-circle-icon {
+    background-color: #A9834F;
+    color: white;
+}
+
+.corporate .checkmark-circle-icon {
+    background-color: #86C0B7;
+}

@@ -1,0 +1,32 @@
+.category-card {
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Poppins';
+    box-shadow: 0 10px 30px 2px #e1e1e3
+}
+
+.icon-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.title {
+    color: black;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.description{
+    color: var(--storm-gray);
+    font-size:13px;
+    height: 100px;
+    overflow: hidden;
+}

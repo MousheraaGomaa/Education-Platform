@@ -1,0 +1,21 @@
+.slider-navigation-btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.control-button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dusty-teal);
+}
+
+.control-button:disabled{
+    background-color: var(--neptune);
+}

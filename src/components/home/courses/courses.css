@@ -1,0 +1,14 @@
+
+.courses-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.courses-header h3{
+    font-family: Poppins;
+    font-weight: 600;
+}
+.courses-header button{
+    padding: 5px 30px;
+}

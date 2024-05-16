@@ -1,0 +1,24 @@
+.gauge-chart {
+  position: relative;
+  width: 150px; /* Adjust as needed */
+}
+
+.arc-background {
+  fill: #ddd; /* Background color */
+}
+
+.arc-progress {
+  fill: #ff6384; /* Progress color */
+}
+
+.needle {
+  fill: #333; /* Needle color */
+}
+
+.value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px; /* Adjust font size */
+}

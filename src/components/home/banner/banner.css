@@ -1,0 +1,72 @@
+
+.hero-section{
+    width:100%;
+    padding-bottom: 100px;
+    background-color: #037C6A;
+    -webkit-clip-path: ellipse(85% 51% at 50% 40%);
+    clip-path: ellipse(85% 58% at 50% 40%)
+}
+
+.hero-section .content{
+    /* padding-top: 120px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.left-section{
+    flex-grow: 1;
+}
+
+.hero-section h1 {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.hero-section .left-section p {
+    color: #ffffffe0;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.hero-section .left-section button {
+    color: white;
+    padding: 5px 30px;
+    border-radius: 50vh;
+    border: 2px solid #012F28;
+    background-color: #012F28;
+    margin-bottom: 30px;
+
+}
+
+.right-section {
+    background-image: url('../../../../public/images/home/Female-Student.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+.right-section>* {
+    margin-bottom: 5px;
+}
+
+.right-section>:nth-child(2n+1) {
+    position: relative;
+    margin-left: auto;
+    margin-bottom: 20px;
+    top: 10px;
+}
+
+@media (max-width: 768px) {
+    .right-section>:nth-child(2n+1) {
+        top: 0px;
+    }
+    .hero-section h1 {
+        font-size:25px;
+    }
+}

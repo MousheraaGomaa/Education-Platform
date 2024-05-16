@@ -1,0 +1,12 @@
+.signup-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 10px;
+    font-family: Poppins,sans-serif;
+}
+
+/* small{
+    visibility: hidden;
+} */

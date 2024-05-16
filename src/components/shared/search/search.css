@@ -1,0 +1,46 @@
+.search{
+    height: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 50vh;
+    padding-inline: 10px;
+    overflow: hidden;
+    color:black;
+    border:1px solid black;
+    flex-grow: 1;
+}
+
+.search input {
+    color:black;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    height: 100%;
+    font-size: 18px;
+    width: 100px;
+    background-color: transparent;
+}
+.search .search-icon{
+    margin-right: 5px;
+    font-size: 25px;
+    cursor: pointer;
+} 
+
+.search input::placeholder{
+    color: black;
+    font-size: 14px;
+    font-weight: 400  !important;
+    font-family: 'Poppins';
+}
+.search.dark{
+    color:white;
+    border-color: white;
+}
+
+.search.dark input{
+    color:white
+}
+.search.dark input::placeholder{
+    color:white
+}

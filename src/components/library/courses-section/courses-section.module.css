@@ -1,0 +1,17 @@
+
+.header{
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.header h5{
+    font-weight: 600;
+}
+.seeAllLink{
+    color: var(--pine-green);
+    text-decoration: none;
+    font-weight: 600;
+}

@@ -1,0 +1,24 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home h3 {
+  font-family: Poppins;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.home p {
+  color: #9C9CAE;
+  font-size: 18px;
+  font-family: Poppins;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .home p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,66 @@
+.about-organization {
+    text-align: center;
+}
+
+.about-organization p {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.organization-join {
+    margin-block: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 20px;
+}
+
+.organization-join>div {
+    position: relative;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructors .content,
+.students .content {
+    position: relative;
+    z-index: 2;
+}
+
+.organization-join .instructors {
+    background-image: url('../../../../public/images/home/teacher.jpg');
+}
+
+.organization-join .students {
+    background-image: url('../../../../public/images/home/students.jpg');
+}
+
+.instructors .content h3,
+.students .content h3 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content button {
+    font-family: 'Poppins';
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: transparent;
+
+}
+
+.content button:hover {
+    background-color: #06B49A;
+    border-color: #06B49A
+}

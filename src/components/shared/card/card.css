@@ -1,0 +1,69 @@
+.card{
+    font-family: 'Poppins';
+    border-radius: 20px;
+    padding: 15px;
+    overflow: hidden;
+}
+.card >img{
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+}
+.card .details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card .details .category,
+.card .details .duration{
+    color:#8A8AA0;
+    font-size:13px;
+    font-weight: 600;
+    display:flex;
+    align-items: center;
+    gap:5px;
+} 
+.category .icon,
+.duration .icon{
+    font-size: 25px;
+    color:var(--cadet-blue)
+}
+.card p{
+    font-size: 14px;
+    line-height: 1.8;
+    height: 70px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    color:var(--storm-gray)
+}
+.card h5{
+    color:var(--ebony-clay);
+    font-size: 18px;
+    height: 46px;
+    overflow: hidden;
+    margin: 10px 0px 20px;
+}
+.card .details .inst-info img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+    display:inline;
+}
+.details .inst-info span{
+    font-size: 14px;
+    font-weight: 500;
+    color:var(--ebony-clay)
+}
+.details .price .before-off{
+    color:var(--storm-gray);
+    margin-right:10px ;
+    text-decoration: line-through;
+}
+.details .price .after-off{
+    color:var(--pine-green);
+    font-weight: 700;
+    font-size: 18px;
+}

@@ -1,0 +1,86 @@
+
+.course-card-container{
+    overflow: hidden;
+    border-radius: 20px;
+    background-color:#F0FBFA;
+    box-shadow: 0px 3px 3px rgb(0 0 0 / 21%)
+}
+.course-img img{
+    height: 200px;
+    width:100%;
+    object-fit: cover; 
+}
+.course-info-top,
+.course-info-bottom{
+    padding:10px;
+}
+.rating-lessons-container{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.lessons-count{
+    font-size:  15px;
+    font-weight: 600;
+}
+.rating-container{
+    margin-left: auto;
+}
+.video-icon{
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: #D12424;
+}
+.course-title h5{
+    height: 45px;
+    overflow: hidden;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.course-info hr{
+    opacity: 100;
+    color:white;
+    margin-block: 10px;
+}
+.course-info-bottom .instructor-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.course-info-bottom .instructor-info img{
+    width:35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.course-info-bottom .instructor-info .category{
+    margin-left: auto;
+    font-weight: 700;
+    color: #A9834F;
+}
+.specialization-name .inst-name{
+    font-weight: 600;
+    font-size:16px;
+    color:#20203A;
+    height: 30px;
+    overflow: hidden;
+}
+.specialization-name .inst-spe{
+    color: #8E90B5;
+    font-size: 14px;
+}
+.course-info-bottom button{
+    padding: 5px 15px;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (max-width:767.99999px){
+    .course-img img{
+        height: 250px;
+    }
+}
